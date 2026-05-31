@@ -1,0 +1,26 @@
+{
+    "name": "Nether-os-syntax-highlighting",
+    "displayName": "NetherOS Syntax Highlighting",
+    "description": "VS Code theme that mimics Microsoft Copilot code highlighting.",
+    "version": "1.0.0",
+    "publisher": "dan",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "main": "./extension.js",
+    "activationEvents": [
+        "*"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Copilot Syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/copilot-color-theme.json"
+            }
+        ]
+    }
+}
